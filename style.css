@@ -1,0 +1,69 @@
+/* Font */
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+span {
+  display: block;
+  font-weight: 600;
+}
+
+.container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: auto 20% 20% 20% 20%;
+}
+
+.item0 {
+  font-weight: 200;
+  transform: translateX(41%);
+}
+
+.item1 {
+  font-weight: 200;
+  font-size: 15px;
+  width: 500px;
+  text-align: center;
+  transform: translateX(124%);
+}
+
+.sub-item {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 30%;
+}
+
+.card {
+  box-shadow: -1px 10px 10px 5px hsl(229, 6%, 66%);
+}
+
+.card1 {
+  border-top: 5px solid hsl(180, 62%, 55%);
+  grid-area: 3/2 / span 2 / span 1;
+}
+
+.card2 {
+  border-top: 5px solid hsl(0, 78%, 62%);
+  grid-area: 2/3 / span 2 / span 1;
+}
+
+.card3 {
+  border-top: 5px solid hsl(34, 97%, 64%);
+  grid-area: 4/3 / span 2 / span 1;
+}
+
+.card4 {
+  grid-area: 3/4 / span 2 / span 1;
+  border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+.attribution {
+  font-size: 11px;
+  transform: translateX(43%);
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
